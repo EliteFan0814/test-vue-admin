@@ -35,7 +35,6 @@ export default {
     handleLogout() {
       this.$http.get("/logout").then(() => {
         this.$store.dispatch("StoreUser/removeUser").then(() => {
-          this.treeList.length = 0
           this.$router.push("/login")
         })
       })
