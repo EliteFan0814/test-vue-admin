@@ -10,7 +10,7 @@ const state = {
 const mutations = {
     // 设置 路由表
     SET_ROUTERS:function(state,adds){
-        state.addRoutes.length = 0;
+        state.addRoutes.length = 0
         state.addRoutes = _.concat(state.addRoutes,adds)
     }
 };

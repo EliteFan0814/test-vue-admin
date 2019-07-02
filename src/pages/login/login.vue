@@ -50,10 +50,10 @@ export default {
   name: 'login',
   data() {
     return {
-      'delayLoading': false,
-      'accountArray': userData,
-      'account': '',
-      'password': ''
+      delayLoading: false,
+      accountArray: userData,
+      account: '',
+      password: ''
     };
   },
   methods: {
@@ -69,7 +69,6 @@ export default {
 
             this.$http.post('/login', _data)
               .then((response) => {
-                
                 if (response.data.isLogin) {
                     this.$store.dispatch('StoreUser/setUser', response.data).then(() => {
                     let _roles = this.$store.getters.userInfo.roles;
