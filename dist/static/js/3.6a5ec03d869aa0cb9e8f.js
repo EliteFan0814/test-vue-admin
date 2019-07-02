@@ -1,0 +1,2 @@
+webpackJsonp([3],{P2Xi:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={render:function(){this.$createElement;this._self._c;return this._m(0)},staticRenderFns:[function(){var e=this.$createElement,t=this._self._c||e;return t("div",{staticClass:"role"},[t("p",[this._v("当前页是登录管理员账户才能看到的页面")])])}]};var s=n("VU/8")({name:"role"},r,!1,function(e){n("a22u")},"data-v-6a834c53",null);t.default=s.exports},a22u:function(e,t){}});
+//# sourceMappingURL=3.6a5ec03d869aa0cb9e8f.js.map
